@@ -1,0 +1,174 @@
+body{
+	background: url(../img/mtns2.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#webHeader{
+	font-family: monospace;
+	font-size: 30px;
+	text-align: center;
+	animation: opacity-change 4s infinite;
+	margin-bottom: 0%;
+	color: #FAFAFF;
+}
+
+@keyframes opacity-change{
+	0%{
+		opacity: 1;
+	}
+	50%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+
+ul {
+    list-style-type: none;
+    margin: 10px;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 0px;
+    overflow: hidden;
+    width:50%;
+    text-align: center;
+}
+
+li {
+	display:inline-block;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 25px;
+    text-decoration: none;
+    font-family: monospace;
+    /*text-align: center;*/
+    font-size: 15px;
+
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #333;
+    border-radius: 30px;
+}
+
+#pujHeader{
+	color: #FCFAFA ;
+	font-family: monospace;
+	text-align: center;
+	display: block;
+	padding: 0;
+	margin-top: 0;
+	margin-bottom: 0%;
+	border-collapse: collapse;
+	border-spacing: 0;
+
+	/*animation: color-change 4s infinite;*/
+}
+
+
+#pujanPicture{
+	padding: 2px;
+	border-radius: 3px;
+	border-style: groove;
+}
+#aboutMeParagraph{
+	font-family: monospace;
+	color: #FCFAFA;
+}
+section{
+	color: #FCFAFA;
+	font-family : monospace;
+}
+#homeworks{
+	text-align: center;
+}
+#projects{
+	text-align: center;
+}
+#helloWorldHTML{
+	color : #FCFAFA;
+}
+#hyperTextBriefHTML{
+	color: #FCFAFA;
+}
+
+#hyperTextBriefHTML:link {
+text-decoration: none;
+}
+#hyperTextBriefHTML:visited {
+text-decoration: none;
+}
+#hyperTextBriefHTML:hover {
+text-decoration: underline;
+}
+#hyperTextBriefHTML:active {
+text-decoration: none;
+}
+
+#hyperTextNarrativeHTML{
+	color: #FCFAFA;
+}
+
+#zenGarden:link {
+text-decoration: none;
+}
+#zenGarden:visited {
+text-decoration: none;
+}
+#zenGarden:hover {
+text-decoration: underline;
+}
+#zenGarden:active {
+text-decoration: none;
+}
+
+#zenGarden{
+	color: #FCFAFA;
+}
+
+
+/*.container {
+    position: relative;
+    width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 15%;
+  height: 15%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  text-align: center;
+}
+
+.middle {
+  transition: .7s ease;
+  opacity: 0;
+  position: absolute;
+  top: 40%;
+  left: 2.5%;
+
+}
+
+.image:hover {
+  opacity: 0;
+
+}
+
+
+.text {
+  color: white;
+  padding: 5px; 
+
+}*/
+

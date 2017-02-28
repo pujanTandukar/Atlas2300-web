@@ -1,0 +1,18 @@
+body{
+	font-family: monospace;
+	font-size: 14px;
+	background-color: #FAFAFF;
+}
+#zen-intro{
+	text-align: center;
+	margin: auto;
+
+}
+#zen-summary{
+	border: 2px solid darkred; 
+	padding: 2px;
+}
+#zen-preamble{
+	text-align: left;
+
+}
